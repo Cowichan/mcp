@@ -9,6 +9,33 @@
   </url>
 
   <!-- Ajoute ici toutes les autres pages importantes -->
+  <url>
+    <loc>https://www.monsieurcafeplumer.art/works.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.monsieurcafeplumer.art/gallery.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.monsieurcafeplumer.art/blog.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.monsieurcafeplumer.art/contact.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Exemple :
   <url>
     <loc>https://www.monsieurcafeplumer.art/page1</loc>
