@@ -1,0 +1,14 @@
+# Activer le moteur de réécriture
+RewriteEngine On
+
+# 🔹 Forcer HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 🔹 Forcer www → si quelqu’un tape sans www, redirige vers www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 🔹 Supprimer "index.html"
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [L,R=301]
